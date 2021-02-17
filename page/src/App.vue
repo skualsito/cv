@@ -36,4 +36,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: var(--text-color);
-  background: var(--main-bg-col
+  background: var(--main-bg-color);
+}
+</style>
