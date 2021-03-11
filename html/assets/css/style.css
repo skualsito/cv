@@ -96,7 +96,8 @@ nav {
   filter: blur(3px);
   mix-blend-mode: darken;
   height: 100%;
-  width: fit-content;
+  width: auto;
+  min-width: fit-content;
 }
 .slide-title h5 {
   font-size: 16vw;
