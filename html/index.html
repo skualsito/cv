@@ -14,17 +14,17 @@
     <nav class="menu">
         <div class="container">
             <a class="menu-logo" href="#">Juan Almada</a>
-        <div class="slash">/</div>
+        <div class="menu-slash">/</div>
             <button class="menu-cel-button" type="button">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="menu-collapse">
                 <ul class="menu-items">
                     <li class="menu-item">
-                        <a class="menu-link active" href="#porfolio">portfolio</a>
+                        <a class="menu-link active" href="#profile">portfolio</a>
                     </li>
                     <li class="menu-item">
-                        <a class="menu-link" href="#">sobre mi</a>
+                        <a class="menu-link" href="#aboutme">sobre mi</a>
                     </li>
                     <li class="menu-item">
                         <a class="menu-link" href="#">contacto</a>
@@ -38,33 +38,87 @@
             </div>
         </div>
     </nav>
-    <div class="slide-profile">
-        <ol class="slide-indicators">
-            <li data-item="0" class="active"><i class="fas fa-circle"></i></li>
-            <li data-item="1"><i class="fas fa-circle"></i></li>
-        </ol>
-      
-        <div class="slide-items">
-            <div class="slide-item active">
-                <div class="slide-title">
-                    <h5>JSmart</h5>
+    <section id="profile">
+        <div class="slide-profile">
+            <ol class="slide-indicators">
+                <li data-item="0" class="active"><i class="fas fa-circle"></i></li>
+                <li data-item="1"><i class="fas fa-circle"></i></li>
+            </ol>
+        
+            <div class="slide-items">
+                <div class="slide-item active">
+                    <div class="slide-title">
+                        <h5>JSmart</h5>
+                    </div>
+                    <img src="./assets/slide/jsmart.png">
+                    <div class="slide-desc">
+                        <p>Aplicación de Google Chrome para convertir el navegador en un SmartTV</p>
+                    </div>
                 </div>
-                <img class="d-block w-100" src="./assets/slide/jsmart.png">
-                <div class="slide-desc">
-                    <p>Aplicación de Google Chrome para convertir el navegador en un SmartTV</p>
+                <div class="slide-item">
+                    <div class="slide-title">
+                        <h5>JSmart</h5>
+                    </div>
+                    <img src="./assets/slide/jsmart.png">
+                    <div class="slide-desc">
+                        <p>Aplicación de Google Chrome para convertir el navegador en un SmartTV</p>
+                    </div>
                 </div>
             </div>
-            <div class="slide-item">
-                <div class="slide-title">
-                    <h5>JSmart</h5>
+        
+        </div>
+    </section>
+    <section id="aboutme">
+        <div class="biography">
+            <div class="bio-image">
+                <img src="assets/profile.jpg" alt="Yo">
+            </div>
+            <div class="bio">
+                <div class="bio-data">
+                    <h5>Edad</h5>
+                    <p>26</p>
                 </div>
-                <img class="d-block w-100" src="./assets/slide/jsmart.png">
-                <div class="slide-desc">
-                    <p>Aplicación de Google Chrome para convertir el navegador en un SmartTV</p>
+                <div class="bio-title">
+                    Sobre Mi
+                </div>
+                <div class="bio-data">
+                    <h5>Nombre</h5>
+                    <p>Juan</p>
+                </div>
+                <div class="bio-data">
+                    <h5>Apellido</h5>
+                    <p>Almada</p>
+                </div>
+                <div class="bio-desc">
+                    Soy un <span>hijo de mil putas</span> que esta armando su web para andar probando cositas, les mando un besito
                 </div>
             </div>
         </div>
-      
-      </div>
+        <div class="skills">
+            <h1>Skills</h1>
+            <ul class="skill-list">
+                <li class="skill-item">HTML</li>
+                <li class="skill-item">CSS3</li>
+                <li class="skill-item">JavaScript</li>
+                
+            </ul>
+            <ul class="skill-list">
+                <li class="skill-item">NodeJS</li>
+                <li class="skill-item">ReactJS</li>
+                <li class="skill-item">VueJS</li>
+                
+            </ul>
+            <ul class="skill-list">
+                <li class="skill-item">Angular</li>
+                <li class="skill-item">PHP</li>
+                <li class="skill-item">MySQL</li>
+            </ul>
+            <ul class="skill-list">
+                <li class="skill-item">Cloud Service Server</li>
+                <li class="skill-item">Socket.io</li>
+            </ul>
+            
+        </div>
+    </section>
 </body>
 </html>
